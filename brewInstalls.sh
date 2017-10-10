@@ -20,5 +20,5 @@ brew cask install docker
 brew cask install spotify
 brew cask install tunnelblick
 brew cask install postman
-brew cask install avast-mac-security
+brew cask install avast-security
 
