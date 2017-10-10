@@ -25,3 +25,6 @@ brew cask install avast-security
 brew cask install gotomeeting
 brew cask install skype
 
+echo Cleanup dmg files
+brew cask cleanup
+
