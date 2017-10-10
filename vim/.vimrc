@@ -1,6 +1,7 @@
 set nocompatible
 set encoding=utf-8
 set nu
+set rnu
 set ruler
 set backspace=indent,eol,start " backspace over everything in insert mode
 syntax on
@@ -13,7 +14,8 @@ call plug#begin('~/.vim/bundle')
 Plug 'scrooloose/nerdtree'
 Plug 'majutsushi/tagbar'
 Plug 'altercation/vim-colors-solarized'
-Plug 'sheerun/vim-polyglot.git'
+Plug 'sheerun/vim-polyglot'
+Plug 'nanotech/jellybeans.vim'
 call plug#end()
 
 """"""" Mapping """"""""""""""""""""""""""""""""""""""""
@@ -25,11 +27,9 @@ inoremap <S-Tab> <C-d>
 " Syntax and colors
 set background=dark
 let g:solarized_termcolors=256
-colorscheme solarized
-
+colorscheme jellybeans 
 set expandtab
-set softtabstop=2
+set tabstop=2
 set shiftwidth=2
 set autoindent
 set smartindent
-
