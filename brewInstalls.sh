@@ -7,6 +7,7 @@ echo Installing Brew Packages
 brew install tmux
 brew install ctags
 brew install openssl
+brew install node
 
 echo Installing casks
 brew cask install iterm2
@@ -21,4 +22,6 @@ brew cask install spotify
 brew cask install tunnelblick
 brew cask install postman
 brew cask install avast-security
+brew cask install gotomeeting
+brew cask install skype
 
